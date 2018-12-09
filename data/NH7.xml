@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">Felicia Leatherwood interview with The Root on Natural Hair</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="CRICH">
+            <forename>Courtney</forename>
+            <surname>Richardson</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#CRICH">
+            <forename>Courtney</forename>
+            <surname>Richardson</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+          <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="minutes" quantity="2">2 minutes of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHUM</abbr>) Initiative</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-07-09">9 July 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+        <title type="sub">Natural Hair</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#CRICH">
+              <forename>Courtney</forename>
+              <surname>Richardson</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">Secure the Crown: Felicia Leatherwood</title>
+        <author>
+          <persName xml:id="FLWOOD"> <!-- In the event that the original author's name does not take on a traditional forename-surname form, use <name> instead and provide a comment to indicate what kind of name (e.g. username, handle, alias, etc.) is provided. -->
+            <forename>Felicia</forename>
+            <surname>Leatherwood</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="THEROOT">The Root</orgName>
+        </publisher>
+        <pubPlace>https://www.theroot.com</pubPlace>
+        <date when="2017-12-21">December 21, 2017</date>
+      </bibl>
+      <bibl xml:id="JLUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-06-28">28 June 2018</date>
+      </bibl>
+      <bibl>
+          <interpGrp resp="#LUDISS" type="freedom-ideas">
+              <desc>Ideational analysis of freedom.</desc>
+              <interp xml:id="STRAND1">Strand 1</interp>
+              <interp xml:id="STRAND2">Strand 2</interp>
+              <interp xml:id="STRAND3">Strand 3</interp>
+              <interp xml:id="STRAND4">Strand 4</interp>
+              <interp xml:id="STRAND5">Strand 5</interp>
+          </interpGrp>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. -->
+        <analytic>
+          <author>
+            <persName xml:id="RJefferies ">
+              <forename>Rhonda </forename>
+              <surname>Jeffries</surname>
+            </persName>
+            <persName xml:id="DJefferies ">
+              <forename>Devair</forename>
+              <surname>Jeffries</surname>
+            </persName>
+          </author>
+          <title>Reclaiming Our Roots: The influences of Media Cirriculum on Natural Hair Movement</title>
+        </analytic>
+        <monogr>
+          <title level="j">Multicultural Perpesctives </title>
+          <imprint>
+            <publisher>Multicultural Perpesctives</publisher>
+            <pubPlace>
+            </pubPlace>
+            <date when="2014-07">July 2014</date>
+          </imprint>
+          <biblScope unit="page" from="160" to="165">pp. 160-165</biblScope>
+        </monogr>
+        <note>In this article, talks about the impact social media has on the current natural hair movement. It discusess how women ae using youtbe and other social media platforms to learn how to do thier natural hair.</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listOrg> <!-- Provided to exemplify proper markup form and required elements. -->
+        <org>
+          <orgName ref="THEROOT">
+            <name>The Root</name>
+          </orgName>
+          <placeName>https://www.theroot.com</placeName>
+          <note>The Root is an online magazine that centralizes African American thoughts, experiences, and news. Felicia Leatherwood is featured in a few of their articles.</note>
+        </org>
+        <org>
+          <orgName xml:id="HBO" ref="https://lccn.loc.gov/no2008036301">
+            <name>Home Box Office</name>
+            <abbr>HBO</abbr>
+          </orgName>
+          <idno type="LCAF">no2008036301</idno>
+          <placeName>
+            <settlement>New York</settlement>
+            <region>New York (<abbr>NY</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+          <note>HBO a televison network that includes the TV show, Insecure, starring Issa Rae. Felicia Leatherwood is Rae's hairstylist on the show.</note>
+        </org>
+        <org>
+          <orgName xml:id="TWTR">
+            <name ref="http://id.loc.gov/authorities/names/n2009031956">Twitter</name>
+          </orgName>
+          <idno type="LCAF">n 2009031956</idno>
+          <placeName>
+            <settlement>San Francisco</settlement>
+            <region>California (<abbr>CA</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+          <note>Twitter is a social networking website and app where users post and engage with tweets. Black people on Twitter have created the digital space, "Black Twitter," where participants engage with culturally similar users within the larger Twitter "world."</note>
+        </org>
+      </listOrg>
+      <listPerson> <!-- Provided to exemplify proper markup form and required elements. -->
+        <person>
+          <persName ref="#FLWOOD">
+            <forename>Felicia</forename>
+            <surname>Leatherwood</surname>
+          </persName>
+          <note>Felicia Leatherwood is a celebrity hairstylist who works with several notable celebrites who have natural hair. She is aslo an entrepreneur as she designed a detangling brush specifically for natural hair.</note>
+        </person>
+        <person>
+          <persName xml:id="SKW" ref="https://lccn.loc.gov/no2017132272">
+            <forename>Susan</forename>
+            <forename type="middle">Kelechi</forename>
+            <surname>Watson</surname>
+          </persName>
+          <idno type="LCAF">no2017132272</idno>
+          <note>Susan Kelechi Watson is an actor known for her most recent role on the TV show, This Is Us.</note>
+        </person>
+        <person>
+          <persName xml:id="YAS" ref="https://lccn.loc.gov/n2009066019">
+            <forename>Yara</forename>
+            <surname>Shahidi</surname>
+          </persName>
+          <idno type="LCAF">n 2009066019</idno>
+          <note>Yara Shahidi is an actor know for her roles is the ABC series Black-ish and Grown-ish. Shahidi's hair is styled by Felcia Leatherwood.</note>
+        </person>
+        <person>
+          <persName xml:id="LEW" ref="https://lccn.loc.gov/no2015096011">
+            <forename>Lena</forename>
+            <surname>Waithe</surname>
+          </persName>
+          <idno type="LCAF">no2015096011</idno>
+          <note>Lena Waithe is an actor and writer known for her Emmy award winning role and writing on the show Master of None.</note>
+        </person>
+        <person>
+          <persName xml:id="ADV" ref="https://lccn.loc.gov/no2011127416">
+            <forename>Ava</forename>
+            <surname>DuVernay</surname>
+          </persName>
+          <idno type="LCAF">no 2011127416</idno>
+          <note>Ava DuVernay is a film writer, producer, and director who has worked on several films and TV shows including Selma, Queen Sugar, and A Wrinkle in Time. Duvernay is also a client of Felicia Leatherwood.</note>
+        </person>
+        <person>
+          <persName xml:id="IRAE" ref="https://lccn.loc.gov/n2015002097">
+            <forename>Issa</forename>
+            <surname>Rae</surname>
+          </persName>
+          <idno type="LCAF">n 2015002097</idno>
+          <note>Issa Rae is an actor and writer who is known for her work on Awkward Black Girl and Insecure. She wears her hair in its natural state on television and is styled by Felicia Leatherwood.</note>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>You sit in my chair, I make sure that I introduce myself to your hair. I feel it. I massage the scalp. I just get familiar. With <persName ref="#IRAE">Issa</persName> — she just lets me create. </p>
+      <p>I do not realize how much <persName ref="#IRAE">Issa Rae’s</persName> hair <seg type="natural-hair">has impacted the natural hair community.</seg> </p>
+      <p>With <persName ref="#IRAE">Issa Rae</persName> on <name type="TV-show">Insecure</name>, we did like — 100 hair styles last season. I’m reading the script and I’m like, OK, this hairstyle should last for 2 days. But we got so into it because the way you shoot is out of sequence. And people — they would go on <orgName ref="#TWTR">Twitter</orgName> and say, “OK, so she had one hairstyle for breakfast and another one for lunch.” But they loved it. <seg type="natural-hair">What ever you see on straight hair, I feel I can create it with natural hair.</seg> I started doing hair when I was itty-bitty young because no one could do my hair. When I went to the salon as a kid, it was like, “Oh she’s got long hair and it’s straight and beautiful. How can I get that?” And I didn’t get that. That was not my hair. <persName ref="#SKW"> Susan Kelechi Watson</persName> from <name type="tv-show">This Is Us</name> is one of my clients; <persName ref="#YAS">Yara Shahidi</persName>, <persName ref="#ADV">Ava DuVernay</persName>, <persName ref="#LEW">Lena Waithe</persName>. I draw my inspiration from the old and the new. I may go all the way back to a style out of <placeName>Africa</placeName> from the 1800s. Old braid styles that have been forgotten. I also will go to old <placeName>Hollywood</placeName>. All the <orgName>YouTubers</orgName> and the bloggers, all the young girls creating in their bathroom, videotaping—I watch them. Every time I create or design a hairstyle that I know will be on the carpet or go viral, it is always about the community of natural hair. <seg type="natural-hair">We are innovators. We will always be.</seg> </p>
+    </body>
+  </text>
+</TEI>
